@@ -1,8 +1,9 @@
 import React from 'react';
+import style from './projects.module.css'
 
-const Projects = () => {
+function Projects () {
   return (
-    <div>
+    <div className={style.container} id="projects">
 
         <p> Aca van mis proyectos </p>
     </div>
@@ -10,4 +11,4 @@ const Projects = () => {
   );
 }
 
-export default Projects ;
+export default Projects;

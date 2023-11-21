@@ -1,0 +1,11 @@
+.container {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0; /* Establece la posición superior fija */
+    color: antiquewhite;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
