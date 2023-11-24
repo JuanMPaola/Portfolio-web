@@ -6,11 +6,11 @@ import Projects from './components/projects/projects.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <div className='sliedNav'>
+    <div>
+      <div>
         <SlideNav />
       </div>
-      <div className='allInfo'>
+      <div>
         <About />
         <Projects />
         <Contact />
